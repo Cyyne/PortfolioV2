@@ -18,7 +18,7 @@ import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
 import netlifyicon from "../../assets/icons/netlifyicon.svg";
-import rendericon from "../../assets/icons/rendericon.svg";
+
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import summarizer from "../../assets/img/summarizer.webp";
@@ -89,7 +89,7 @@ export const projectsData = [
       { name: "React", icon: reacticon },
       { name: "postgreSQL", icon: postgresicon },
       { name: "Eddahabia API", icon: algerieposteicon },
-      { name: "Netlify", icon: netlifyicon },
+
       { name: "Trello", icon: trelloicon },
     ],
     image: fancydz,
@@ -150,8 +150,6 @@ export const projectsData = [
       { name: "Express", icon: expressiconwhite },
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
-      { name: "Trello", icon: trelloicon },
     ],
     image: ydelivery,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",

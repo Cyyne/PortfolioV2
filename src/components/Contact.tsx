@@ -143,6 +143,7 @@ const Contact: React.FC = () => {
     }
 
     setLastUpdatedField(name);
+    console.log(lastUpdatedField);
   };
 
   // const [cursorBlink, setCursorBlink] = useState<boolean>(true);
