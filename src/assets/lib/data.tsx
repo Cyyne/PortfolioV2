@@ -36,7 +36,7 @@ import stripeicon from "../../assets/icons/Stripe.svg";
 import paypalicon from "../../assets/icons/paypal.svg";
 import strapiicon from "../../assets/icons/strapi.svg";
 import phpicon from "../../assets/icons/php.svg";
-import { SiUpwork } from "react-icons/si";
+import { TbBrandUpwork } from "react-icons/tb";
 
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
@@ -55,7 +55,7 @@ export const headerIntroData = {
     {
       name: "Contact",
       label: {
-        de: "الاتصال",
+        de: "معلومات الاتصال",
         en: "Contact me",
       },
       icon: FiMail,
@@ -65,9 +65,9 @@ export const headerIntroData = {
       name: "Projects",
       label: {
         de: "المشاريع",
-        en: "Hire me on Upwork",
+        en: "Projects",
       },
-      icon: SiUpwork,
+      icon: FiGithub,
       color: "secondary-btn",
     },
   ],
@@ -94,7 +94,7 @@ export const projectsData = [
     ],
     image: fancydz,
     deploymenturl: "https://fancydz.com/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    githuburl: "https://github.com/L-Yacine/watchme-front",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -152,8 +152,8 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
     ],
     image: ydelivery,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    deploymenturl: "https://foodelivery-bice.vercel.app/",
+    githuburl: "https://github.com/L-Yacine/FooDelivery",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -336,7 +336,7 @@ export const navLinks = [
 
 export const sideBarRightMail = {
   link: "mailto:labdaoui.yacine@gmail.com",
-  text: "Email Me",
+  text: "E-MAIL",
 } as const;
 
 export const sideBarLeftSocials = [
@@ -349,6 +349,11 @@ export const sideBarLeftSocials = [
     link: "https://github.com/L-Yacine",
     icon: FiGithub,
     altimgname: "github",
+  },
+  {
+    link: "https://www.upwork.com/freelancers/~01dce652b2363bd2c1",
+    icon: TbBrandUpwork,
+    altimgname: "Upwork",
   },
   {
     link: "mailto:labdaoui.yacine@gmail.com",

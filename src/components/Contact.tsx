@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
   const generateCaptcha = () => {
     const num1 = Math.floor(Math.random() * 10);
     const num2 = Math.floor(Math.random() * 10);
-    setCaptchaQuestion(`What is ${num1} + ${num2}?`);
+    setCaptchaQuestion(` ${num1} + ${num2} =?`);
     setCaptchaAnswer((num1 + num2).toString());
   };
 
@@ -301,7 +301,7 @@ const Contact: React.FC = () => {
                 className={`${
                   theme === "dark"
                     ? "bg-[--blackblue] dark-mode-shadow "
-                    : "bg-[--icewhite] dark-shadow "
+                    : "bg-[--white]  "
                 }`}
               />
             ))}
@@ -325,7 +325,7 @@ const Contact: React.FC = () => {
               className={`${
                 theme === "dark"
                   ? "bg-[--blackblue] dark-mode-shadow"
-                  : "bg-[--icewhite] dark-shadow"
+                  : "bg-[--white] dark-shadow"
               }`}
             />
             <div className="flex flex-col w-full gap-2">
@@ -340,7 +340,7 @@ const Contact: React.FC = () => {
                 className={`${
                   theme === "dark"
                     ? "bg-[--blackblue] dark-mode-shadow"
-                    : "bg-[--icewhite] dark-shadow"
+                    : "bg-[--white] dark-shadow"
                 }`}
               />
             </div>
