@@ -33,7 +33,7 @@ import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import algerieposteicon from "../../assets/icons/AlgeriePoste.svg";
 import stripeicon from "../../assets/icons/Stripe.svg";
-import paypalicon from "../../assets/icons/paypal.svg";
+import paypalicon from "../../assets/icons/Paypal.svg";
 import strapiicon from "../../assets/icons/strapi.svg";
 import phpicon from "../../assets/icons/php.svg";
 import { TbBrandUpwork } from "react-icons/tb";
